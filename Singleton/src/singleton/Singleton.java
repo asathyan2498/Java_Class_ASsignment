@@ -1,0 +1,25 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package singleton;
+
+/**
+ *
+ * @author hp
+ */
+public class Singleton {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+      
+        // Get the only object available
+        SingleObject object = SingleObject.getInstance();
+
+        // Show the message
+        object.showMessage();
+    }
+    
+}
